@@ -1,0 +1,181 @@
+body {
+    background-color: #f8beb8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #ffffff; */
+    border-bottom: 4px solid #ff0000;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 5 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .cart img {
+    height: 30px;
+}
+
+.hero {
+    background-color: #ffd6d6;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero .hero-content h1 {
+    margin: 0;
+    font-size: px;
+}
+
+.hero .hero-content p {
+    font-size: 18px;
+    margin: 5px 0 20px;
+}
+
+.hero .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero .banner img {
+    height: 100px;
+}
+
+.hero .banner-text {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.registration {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.registration .registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration .registration-form h2 {
+    margin-top: 0;
+}
+
+.registration .social-login button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4267b2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.registration .social-login button:nth-child(2) {
+    background-color: #db4437;
+}
+
+.registration form {
+    margin-top: 20px;
+}
+
+.registration form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    padding: 20px;
+}
+
+.product-filters {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.product-filters ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-filters ul li {
+    margin-bottom: 10px;
+}
+
+.product-filters ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-list {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    flex: 1 0 21%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #ccc;
+}
